@@ -1,0 +1,14 @@
+<h5>Settings</h5>
+<p>Unless required fields are filled out inside the settings section, Campaign Press will not function correctly.  If this is a fresh installation or you've missed out something, an error dialog will appear and let you know exactly what you need to fill in for Campaign Press to function correctly.</p>
+<p>To keep things organised, the settings are grouped by tabs.  Navigating from one tab to another won't lose your changes from your previous tab (providing that you still click <i>Save Settings</i> before you leave the settings page).</p>
+<h5>Main settings</h5>
+<p>The Campaign Monitor API Key is the central backbone for the entire plugin.  It is a 32 character string (e.g. <code>c83d92ab5120aa8730bdc92cb281a72b</code>) and can be found by logging in to your Campaign Monitor account, browsing to "Account Settings" then scrolling down the page to "API Key (for developers)".</p>
+<p>Once this key is saved, the <i>Sync with Campaign Monitor</i> button will appear.  Clicking this button will bring over all your clients from Campaign Monitor to Campaign Press.  It will also create Access &amp; Billing groups, from the access &amp; billing settings you have configured in your Campaign Monitor account, and assign your clients to them.</p>
+<h5>Sign Up settings</h5>
+<p>Campaign Press automatically generates a sign up form to allow clients to sign up directly through your website.  This form will be generated where ever you place the shortcode <code>[campaignpress-signup-form]</code>.  This form will not display unless there are no error in the Campaign Press configuration.</p>
+<p>The fields that are displayed on the form are dictated by the group of fields in the <code>Displayed</code> section.  The standard fields that cannot be removed are Company Name, Contact Name &amp; Email.  Fields from the <code>Hidden</code> section may be dragged on to the <code>Displayed</code> section and thus will be displayed on the sign up form.</p>
+<p>The <code>Country</code> &amp; <code>Timezone</code> fields in the <code>Defaults</code> section specify the default country and timezone values to display on the sign up form if those fields are displayed, or the initial settings for the client once they sign up if the fields are not displayed.</p>
+<h5>Notification settings</h5>
+<p>Email notifications can be sent out to the client and/or the administrators of the website at various points in the client creation process.</p>
+<p>The <code>From Name</code> &amp; <code>From Email</code> fields are used when emails are sent from the website.</p>
+<p>The <code>Admin Email(s)</code> field can specify multiple email addresses (comma separated) if required, and is used when admins are notified about an event (such as a new sign up).</p>

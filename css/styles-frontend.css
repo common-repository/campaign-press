@@ -1,0 +1,50 @@
+/* -----------------------------------------------------------------------------------
+
+	Filename: styles.css
+	Description: Main styles for CampaignPress WordPress plugin (frontend).
+	Website: floatingmonk.co.nz
+	Author: Brendan Kilfoil <brendan@floatingmonk.co.nz>
+	
+	== STRUCTURE ======================================================================
+	
+	$__form			Form styles
+
+----------------------------------------------------------------------------------- */
+
+
+/* 	__form
+------------------------------------------------------------------------------------*/
+
+	#cp-form-errors, #cp-form-success {
+		font-size: 0.8em;
+		padding: 10px 15px;
+		margin-bottom: 10px;
+		border-width: 1px;
+		border-style: solid;
+		-moz-border-radius: 6px;
+		-khtml-border-radius: 6px;
+		-webkit-border-radius: 6px;
+		border-radius: 6px;
+	}
+
+	#cp-form-success {
+		color: #000;
+		background-color: #ffffe0;
+		border-color: #e6db55;
+	}
+
+	#cp-form-errors  {
+		color: #000;
+		background-color: #ffebe8;
+		border-color: #cc0000;
+	}	
+	
+		#cp-form-errors  ul {
+			font-weight: normal;
+			padding: 5px 0;
+			margin: 0;
+		}	
+		
+			#cp-form-errors li {
+				margin-left: 30px;
+			}
